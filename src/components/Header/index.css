@@ -1,0 +1,33 @@
+.nav-header {
+  height: 20vh;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-menu {
+  list-style-type: none;
+  display: flex;
+}
+
+.nav-link {
+  text-decoration: none;
+  margin: 8px;
+  font-family: 'Roboto';
+}
+
+.name {
+  color: rgb(148, 183, 34);
+}
+
+@media screen and (max-width: 768px) {
+  .name {
+    font-size: 15px;
+  }
+  .nav-menu {
+    font-size: 13px;
+  }
+}

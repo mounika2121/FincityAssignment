@@ -1,0 +1,55 @@
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.add-project-heading {
+  text-align: center;
+}
+
+.input-label {
+  margin-bottom: 0px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  color: #475569;
+}
+
+.input-field {
+  font-size: 14px;
+  height: 20px;
+  width: 200px;
+  border: 1px solid #d7dfe9;
+  background-color: white;
+  color: #64748b;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.description-field {
+  font-size: 14px;
+  height: 60px;
+  width: 200px;
+  border: 1px solid #d7dfe9;
+  background-color: white;
+  color: #64748b;
+  border-radius: 2px;
+  margin-top: 5px;
+  padding: 8px 16px 8px 16px;
+  outline: none;
+}
+
+.add-btn {
+  margin-left: 180px;
+  margin-top: 10px;
+}
+
+.add-project-container {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

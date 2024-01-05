@@ -26,4 +26,8 @@ p {
   .top-image {
     display: none;
   }
+
+  .about-para {
+    width: 250px;
+  }
 }

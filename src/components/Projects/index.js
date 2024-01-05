@@ -1,8 +1,9 @@
+import AddProject from '../AddProject'
 import './index.css'
 
 const Projects = () => (
   <div>
-    <h1>Project</h1>
+    <AddProject />
   </div>
 )
 

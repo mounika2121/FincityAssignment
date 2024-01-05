@@ -6,7 +6,7 @@ const About = () => (
     <div className="about-container">
       <div>
         <h1>Hello, my name is mounika</h1>
-        <p>
+        <p className="about-para">
           Aspiring Full Stack Developer | Learned at CCBP 4.0 Intensive | Html,
           CSS, Bootstrap, Python , javascript, Sql, Node js , React js
         </p>

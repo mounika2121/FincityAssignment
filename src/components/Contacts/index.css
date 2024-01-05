@@ -1,0 +1,30 @@
+.contact {
+  background-image: url('https://res.cloudinary.com/djbs4yqbz/image/upload/v1704424931/Contact_back_dxn2af.jpg');
+  display: flex;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 50vh;
+}
+
+.contact-para {
+  color: black;
+}
+
+.contact-image {
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .contact {
+    height: 50vh;
+    color: white;
+  }
+  .contact-image {
+    width: 200px;
+  }
+  .contact-para {
+    color: white;
+  }
+}

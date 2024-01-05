@@ -16,11 +16,15 @@
 
 .lin-btn {
   background-color: white;
-  border: 2px solid black;
+  border: 2px solid gray;
 }
 
 p {
   color: gray;
+}
+
+.mobile-image {
+  display: none;
 }
 @media screen and (max-width: 768px) {
   .top-image {
@@ -29,5 +33,16 @@ p {
 
   .about-para {
     width: 250px;
+  }
+
+  .mobile-image {
+    display: flex;
+    height: 180px;
+    width: 200px;
+  }
+
+  .about-container {
+    flex-direction: column;
+    align-self: flex-end;
   }
 }

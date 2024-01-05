@@ -36,18 +36,20 @@ a {
 
 @media screen and (max-width: 768px) {
   .project-image {
-    height: 100px;
-    width: 100px;
+    height: 150px;
+    width: 150px;
   }
 
   .list-item {
-    width: 250px;
+    width: 280px;
+    height: 350px;
     padding: 10px;
+    margin-left: 0px;
   }
 
   .para {
     width: 100px;
-    padding-right: 5px;
-    font-size: 10px;
+    padding: 5px;
+    font-size: 12px;
   }
 }

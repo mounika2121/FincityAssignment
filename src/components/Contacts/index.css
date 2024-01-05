@@ -16,6 +16,10 @@
   border-radius: 15px;
 }
 
+.contact-heading {
+  text-decoration: underline;
+}
+
 @media screen and (max-width: 768px) {
   .contact {
     height: 50vh;

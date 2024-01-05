@@ -1,5 +1,6 @@
 .nav-header {
-  height: 20vh;
+  height: 10vh;
+  border-bottom: 2px solid #fdc435;
 }
 
 .top-container {
@@ -29,5 +30,8 @@
   }
   .nav-menu {
     font-size: 13px;
+  }
+  .nav-header {
+    height: 7vh;
   }
 }

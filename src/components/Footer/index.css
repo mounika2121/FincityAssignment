@@ -1,0 +1,36 @@
+.icon {
+  margin-right: 10px;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.copyright {
+  color: gray;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.vector-image {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.vector-logo {
+  width: 900px;
+}

@@ -3,7 +3,7 @@ import './index.css'
 const Contacts = () => (
   <div className="contact">
     <div>
-      <h1>Contact Information</h1>
+      <h1 className="contact-heading">Contact Information</h1>
       <p className="contact-para">Name: Chetlapalli Mounika</p>
       <p className="contact-para">Email: chmounika2121@gmail.com</p>
       <p className="contact-para">Phone: 9642996302</p>
